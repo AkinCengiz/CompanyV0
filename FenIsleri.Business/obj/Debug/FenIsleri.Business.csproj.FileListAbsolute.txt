@@ -1,0 +1,14 @@
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.Business.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.Business.pdb
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.DataAccess.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.Entities.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\EntityFramework.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.DataAccess.pdb
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.DataAccess.dll.config
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\FenIsleri.Entities.pdb
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\bin\Debug\EntityFramework.xml
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\obj\Debug\FenIsleri.Business.csproj.AssemblyReference.cache
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\obj\Debug\FenIsleri.Business.csproj.CoreCompileInputs.cache
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\obj\Debug\FenIsleri.Business.csproj.CopyComplete
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\obj\Debug\FenIsleri.Business.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Business\obj\Debug\FenIsleri.Business.pdb

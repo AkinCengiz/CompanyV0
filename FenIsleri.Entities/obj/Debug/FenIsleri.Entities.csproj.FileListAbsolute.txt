@@ -1,0 +1,6 @@
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\bin\Debug\FenIsleri.Entities.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\bin\Debug\FenIsleri.Entities.pdb
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\obj\Debug\FenIsleri.Entities.csproj.AssemblyReference.cache
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\obj\Debug\FenIsleri.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\obj\Debug\FenIsleri.Entities.dll
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.Entities\obj\Debug\FenIsleri.Entities.pdb
