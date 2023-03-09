@@ -22,3 +22,4 @@ C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.WindowsFormsUI\obj\Debug\Fen
 C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.WindowsFormsUI\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.WindowsFormsUI\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.WindowsFormsUI\obj\Debug\FenIsleri.WindowsFormsUI.FrmMainForm.resources
+C:\Users\mgurses\source\repos\FenIsleriV0\FenIsleri.WindowsFormsUI\obj\Debug\FenIsleri.WindowsFormsUI.FrmPersonel.resources

@@ -42,19 +42,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IChiefdomService.cs" />
+    <Compile Include="Abstract\ICityService.cs" />
     <Compile Include="Abstract\IDegreeService.cs" />
     <Compile Include="Abstract\IDistrictService.cs" />
     <Compile Include="Abstract\IDutyService.cs" />
     <Compile Include="Abstract\IEmployeeService.cs" />
+    <Compile Include="Abstract\IRegionService.cs" />
     <Compile Include="Abstract\IServiceRepository.cs" />
     <Compile Include="Abstract\IStaffStatuService.cs" />
+    <Compile Include="Abstract\IStreetService.cs" />
+    <Compile Include="Abstract\ITownService.cs" />
     <Compile Include="Concrete\ChiefdomManager.cs" />
+    <Compile Include="Concrete\CityManager.cs" />
     <Compile Include="Concrete\DegreeManager.cs" />
     <Compile Include="Concrete\DistrictManager.cs" />
     <Compile Include="Concrete\DutyManager.cs" />
     <Compile Include="Concrete\EmployeeManager.cs" />
     <Compile Include="Concrete\ManagerRepositoryBase.cs" />
+    <Compile Include="Concrete\RegionManager.cs" />
     <Compile Include="Concrete\StaffStatuManager.cs" />
+    <Compile Include="Concrete\StreetManager.cs" />
+    <Compile Include="Concrete\TownManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

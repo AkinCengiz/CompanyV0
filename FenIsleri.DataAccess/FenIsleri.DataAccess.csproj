@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IChiefdomDal.cs" />
+    <Compile Include="Abstract\ICityDal.cs" />
     <Compile Include="Abstract\IDegreeDal.cs" />
     <Compile Include="Abstract\IDistrictDal.cs" />
     <Compile Include="Abstract\IDutyDal.cs" />
@@ -60,7 +61,9 @@
     <Compile Include="Abstract\IRegionDal.cs" />
     <Compile Include="Abstract\IStaffStatuDal.cs" />
     <Compile Include="Abstract\IStreetDal.cs" />
+    <Compile Include="Abstract\ITownDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfChiefdomDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfCityDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfDegreeDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfDistrictDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfDutyDal.cs" />
@@ -69,6 +72,7 @@
     <Compile Include="Concrete\EntityFramework\EfRegionDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfStaffStatuDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfStreetDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfTownDal.cs" />
     <Compile Include="Concrete\EntityFramework\FenIsleriContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

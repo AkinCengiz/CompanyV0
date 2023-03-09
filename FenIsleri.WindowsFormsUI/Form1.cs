@@ -15,30 +15,28 @@ namespace FenIsleri.WindowsFormsUI
 {
     public partial class Form1 : Form
     {
-        private IEmployeeService _employeeService;
-        private IChiefdomService _chiefdomService;
+        //private IEmployeeService _employeeService;
+        //private IChiefdomService _chiefdomService;
         public Form1()
         {
             InitializeComponent();
-            _employeeService = new EmployeeManager(new EfEmployeeDal());
-            _chiefdomService = new ChiefdomManager(new EfChiefdomDal());
+            this.IsMdiContainer = true;
+            //_employeeService = new EmployeeManager(new EfEmployeeDal());
+            //_chiefdomService = new ChiefdomManager(new EfChiefdomDal());
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public FrmPersonel frmPersonel;
+        
+        
+        private void personelToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadEmployees();
-            LoadChiefdoms();
+            if (FrmPersonel.isClosed)
+            {
+                FrmPersonel.isClosed = false;
+                frmPersonel = new FrmPersonel();
+                frmPersonel.MdiParent = this;
+            }
+            frmPersonel.Show();
         }
-
-        private void LoadChiefdoms()
-        {
-            dgvEntity.DataSource = _chiefdomService.GetAll();
-        }
-
-        private void LoadEmployees()
-        {
-            dgvEntity.DataSource = _employeeService.GetAll();
-        }
-
     }
 }

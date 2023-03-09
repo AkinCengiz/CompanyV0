@@ -18,5 +18,7 @@ namespace FenIsleri.DataAccess.Concrete.EntityFramework
         public DbSet<District> Districts { get; set; }
         public DbSet<Region> Regions { get; set; }
         public DbSet<Street> Streets { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Town> Towns { get; set; }
     }
 }

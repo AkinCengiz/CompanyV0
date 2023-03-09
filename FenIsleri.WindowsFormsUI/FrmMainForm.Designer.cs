@@ -30,50 +30,50 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.bynUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.tbxAddress = new System.Windows.Forms.TextBox();
-            this.cbxCity = new System.Windows.Forms.ComboBox();
-            this.cbxTown = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.cbxChiefdom = new System.Windows.Forms.ComboBox();
-            this.cbxStaffStatus = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblDegree = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.mtbxIdentityNumber = new System.Windows.Forms.MaskedTextBox();
-            this.cbxDegree = new System.Windows.Forms.ComboBox();
-            this.dtpWorkOfDate = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.mtbxGSM = new System.Windows.Forms.MaskedTextBox();
-            this.mtbxPhone = new System.Windows.Forms.MaskedTextBox();
-            this.dtpBirthDate = new System.Windows.Forms.DateTimePicker();
-            this.cbxDuty = new System.Windows.Forms.ComboBox();
-            this.tbxLastName = new System.Windows.Forms.TextBox();
-            this.tbxFirstName = new System.Windows.Forms.TextBox();
-            this.tbxId = new System.Windows.Forms.TextBox();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.lblIdentityNo = new System.Windows.Forms.Label();
-            this.lblID = new System.Windows.Forms.Label();
-            this.dgvEmployees = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.dgvEmployees = new System.Windows.Forms.DataGridView();
+            this.lblID = new System.Windows.Forms.Label();
+            this.lblIdentityNo = new System.Windows.Forms.Label();
+            this.lblFirstName = new System.Windows.Forms.Label();
+            this.tbxId = new System.Windows.Forms.TextBox();
+            this.tbxFirstName = new System.Windows.Forms.TextBox();
+            this.tbxLastName = new System.Windows.Forms.TextBox();
+            this.cbxDuty = new System.Windows.Forms.ComboBox();
+            this.dtpBirthDate = new System.Windows.Forms.DateTimePicker();
+            this.mtbxPhone = new System.Windows.Forms.MaskedTextBox();
+            this.mtbxGSM = new System.Windows.Forms.MaskedTextBox();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dtpWorkOfDate = new System.Windows.Forms.DateTimePicker();
+            this.cbxDegree = new System.Windows.Forms.ComboBox();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.mtbxIdentityNumber = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblDegree = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbxStaffStatus = new System.Windows.Forms.ComboBox();
+            this.cbxChiefdom = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbxTown = new System.Windows.Forms.ComboBox();
+            this.cbxCity = new System.Windows.Forms.ComboBox();
+            this.tbxAddress = new System.Windows.Forms.TextBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.bynUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -86,12 +86,11 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // tabPage1
+            // tabPage2
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.tabPage1.Controls.Add(this.splitContainer1);
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
             // 
             // splitContainer1
             // 
@@ -138,184 +137,6 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgvEmployees);
             // 
-            // btnDelete
-            // 
-            resources.ApplyResources(this.btnDelete, "btnDelete");
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // bynUpdate
-            // 
-            resources.ApplyResources(this.bynUpdate, "bynUpdate");
-            this.bynUpdate.Name = "bynUpdate";
-            this.bynUpdate.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // tbxAddress
-            // 
-            resources.ApplyResources(this.tbxAddress, "tbxAddress");
-            this.tbxAddress.Name = "tbxAddress";
-            // 
-            // cbxCity
-            // 
-            this.cbxCity.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxCity, "cbxCity");
-            this.cbxCity.Name = "cbxCity";
-            // 
-            // cbxTown
-            // 
-            this.cbxTown.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxTown, "cbxTown");
-            this.cbxTown.Name = "cbxTown";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
-            // 
-            // label11
-            // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
-            // 
-            // cbxChiefdom
-            // 
-            this.cbxChiefdom.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxChiefdom, "cbxChiefdom");
-            this.cbxChiefdom.Name = "cbxChiefdom";
-            // 
-            // cbxStaffStatus
-            // 
-            this.cbxStaffStatus.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxStaffStatus, "cbxStaffStatus");
-            this.cbxStaffStatus.Name = "cbxStaffStatus";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            // 
-            // lblDegree
-            // 
-            resources.ApplyResources(this.lblDegree, "lblDegree");
-            this.lblDegree.Name = "lblDegree";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // mtbxIdentityNumber
-            // 
-            resources.ApplyResources(this.mtbxIdentityNumber, "mtbxIdentityNumber");
-            this.mtbxIdentityNumber.Name = "mtbxIdentityNumber";
-            this.mtbxIdentityNumber.ValidatingType = typeof(int);
-            // 
-            // cbxDegree
-            // 
-            this.cbxDegree.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxDegree, "cbxDegree");
-            this.cbxDegree.Name = "cbxDegree";
-            // 
-            // dtpWorkOfDate
-            // 
-            this.dtpWorkOfDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            resources.ApplyResources(this.dtpWorkOfDate, "dtpWorkOfDate");
-            this.dtpWorkOfDate.Name = "dtpWorkOfDate";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // lblLastName
-            // 
-            resources.ApplyResources(this.lblLastName, "lblLastName");
-            this.lblLastName.Name = "lblLastName";
-            // 
-            // mtbxGSM
-            // 
-            resources.ApplyResources(this.mtbxGSM, "mtbxGSM");
-            this.mtbxGSM.Name = "mtbxGSM";
-            // 
-            // mtbxPhone
-            // 
-            resources.ApplyResources(this.mtbxPhone, "mtbxPhone");
-            this.mtbxPhone.Name = "mtbxPhone";
-            // 
-            // dtpBirthDate
-            // 
-            this.dtpBirthDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            resources.ApplyResources(this.dtpBirthDate, "dtpBirthDate");
-            this.dtpBirthDate.Name = "dtpBirthDate";
-            // 
-            // cbxDuty
-            // 
-            this.cbxDuty.FormattingEnabled = true;
-            resources.ApplyResources(this.cbxDuty, "cbxDuty");
-            this.cbxDuty.Name = "cbxDuty";
-            // 
-            // tbxLastName
-            // 
-            resources.ApplyResources(this.tbxLastName, "tbxLastName");
-            this.tbxLastName.Name = "tbxLastName";
-            // 
-            // tbxFirstName
-            // 
-            resources.ApplyResources(this.tbxFirstName, "tbxFirstName");
-            this.tbxFirstName.Name = "tbxFirstName";
-            // 
-            // tbxId
-            // 
-            resources.ApplyResources(this.tbxId, "tbxId");
-            this.tbxId.Name = "tbxId";
-            // 
-            // lblFirstName
-            // 
-            resources.ApplyResources(this.lblFirstName, "lblFirstName");
-            this.lblFirstName.Name = "lblFirstName";
-            // 
-            // lblIdentityNo
-            // 
-            resources.ApplyResources(this.lblIdentityNo, "lblIdentityNo");
-            this.lblIdentityNo.Name = "lblIdentityNo";
-            // 
-            // lblID
-            // 
-            resources.ApplyResources(this.lblID, "lblID");
-            this.lblID.Name = "lblID";
-            // 
             // dgvEmployees
             // 
             this.dgvEmployees.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -324,11 +145,190 @@
             resources.ApplyResources(this.dgvEmployees, "dgvEmployees");
             this.dgvEmployees.Name = "dgvEmployees";
             // 
-            // tabPage2
+            // lblID
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.Name = "tabPage2";
+            resources.ApplyResources(this.lblID, "lblID");
+            this.lblID.Name = "lblID";
+            // 
+            // lblIdentityNo
+            // 
+            resources.ApplyResources(this.lblIdentityNo, "lblIdentityNo");
+            this.lblIdentityNo.Name = "lblIdentityNo";
+            // 
+            // lblFirstName
+            // 
+            resources.ApplyResources(this.lblFirstName, "lblFirstName");
+            this.lblFirstName.Name = "lblFirstName";
+            // 
+            // tbxId
+            // 
+            resources.ApplyResources(this.tbxId, "tbxId");
+            this.tbxId.Name = "tbxId";
+            // 
+            // tbxFirstName
+            // 
+            resources.ApplyResources(this.tbxFirstName, "tbxFirstName");
+            this.tbxFirstName.Name = "tbxFirstName";
+            // 
+            // tbxLastName
+            // 
+            resources.ApplyResources(this.tbxLastName, "tbxLastName");
+            this.tbxLastName.Name = "tbxLastName";
+            // 
+            // cbxDuty
+            // 
+            this.cbxDuty.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxDuty, "cbxDuty");
+            this.cbxDuty.Name = "cbxDuty";
+            // 
+            // dtpBirthDate
+            // 
+            this.dtpBirthDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpBirthDate, "dtpBirthDate");
+            this.dtpBirthDate.Name = "dtpBirthDate";
+            // 
+            // mtbxPhone
+            // 
+            resources.ApplyResources(this.mtbxPhone, "mtbxPhone");
+            this.mtbxPhone.Name = "mtbxPhone";
+            // 
+            // mtbxGSM
+            // 
+            resources.ApplyResources(this.mtbxGSM, "mtbxGSM");
+            this.mtbxGSM.Name = "mtbxGSM";
+            // 
+            // lblLastName
+            // 
+            resources.ApplyResources(this.lblLastName, "lblLastName");
+            this.lblLastName.Name = "lblLastName";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // dtpWorkOfDate
+            // 
+            this.dtpWorkOfDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpWorkOfDate, "dtpWorkOfDate");
+            this.dtpWorkOfDate.Name = "dtpWorkOfDate";
+            // 
+            // cbxDegree
+            // 
+            this.cbxDegree.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxDegree, "cbxDegree");
+            this.cbxDegree.Name = "cbxDegree";
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.tabPage1.Controls.Add(this.splitContainer1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            // 
+            // mtbxIdentityNumber
+            // 
+            resources.ApplyResources(this.mtbxIdentityNumber, "mtbxIdentityNumber");
+            this.mtbxIdentityNumber.Name = "mtbxIdentityNumber";
+            this.mtbxIdentityNumber.ValidatingType = typeof(int);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // lblDegree
+            // 
+            resources.ApplyResources(this.lblDegree, "lblDegree");
+            this.lblDegree.Name = "lblDegree";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // cbxStaffStatus
+            // 
+            this.cbxStaffStatus.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxStaffStatus, "cbxStaffStatus");
+            this.cbxStaffStatus.Name = "cbxStaffStatus";
+            // 
+            // cbxChiefdom
+            // 
+            this.cbxChiefdom.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxChiefdom, "cbxChiefdom");
+            this.cbxChiefdom.Name = "cbxChiefdom";
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.Name = "label11";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // cbxTown
+            // 
+            this.cbxTown.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxTown, "cbxTown");
+            this.cbxTown.Name = "cbxTown";
+            // 
+            // cbxCity
+            // 
+            this.cbxCity.FormattingEnabled = true;
+            resources.ApplyResources(this.cbxCity, "cbxCity");
+            this.cbxCity.Name = "cbxCity";
+            // 
+            // tbxAddress
+            // 
+            resources.ApplyResources(this.tbxAddress, "tbxAddress");
+            this.tbxAddress.Name = "tbxAddress";
+            // 
+            // btnAdd
+            // 
+            resources.ApplyResources(this.btnAdd, "btnAdd");
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // bynUpdate
+            // 
+            resources.ApplyResources(this.bynUpdate, "bynUpdate");
+            this.bynUpdate.Name = "bynUpdate";
+            this.bynUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnDelete
+            // 
+            resources.ApplyResources(this.btnDelete, "btnDelete");
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // FrmMainForm
             // 
@@ -340,13 +340,13 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMainForm_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -355,7 +355,6 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button bynUpdate;
@@ -391,5 +390,6 @@
         private System.Windows.Forms.Label lblIdentityNo;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.DataGridView dgvEmployees;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
